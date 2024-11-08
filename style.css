@@ -1,0 +1,49 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+header h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+header .source, .date {
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+}
+
+section.content h2 {
+    font-size: 18px;
+    color: #444;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+section.content p {
+    margin: 10px 0;
+    text-indent: 2em;
+}
